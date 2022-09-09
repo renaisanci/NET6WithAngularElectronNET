@@ -52,15 +52,20 @@ namespace SmartSim.API
         }
         private async void CreateWindow()
         {
-            var options = new BrowserWindowOptions
+
+            var browserWindow = await Electron.WindowManager.CreateWindowAsync(new BrowserWindowOptions
             {
-                Show = false,
-                Icon = "favicon.ico"
+                Width = 800,
+                Height = 600,
+                Show = false
+            });
+
+            browserWindow.OnReadyToShow += () =>
+            {
+                browserWindow.Show();
+                browserWindow.Maximize();
             };
-
-            var window = await Electron.WindowManager.CreateWindowAsync();
-
-            window.OnClose += () =>
+            browserWindow.OnClose += () =>
             {
                 Electron.App.Quit();
             };
