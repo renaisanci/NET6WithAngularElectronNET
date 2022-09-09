@@ -1,0 +1,38 @@
+{
+  "executable": "SmartSim.API",
+  "splashscreen": {
+    "imageFile": "../../../wwwroot/favicon.png"
+  },
+  "name": "SmartSim.API",
+  "author": "",
+  "singleInstance": false,
+  "environment": "Production",
+  "build": {
+    "appId": "com.SmartSim.API.app",
+    "productName": "SmartSim",
+    "copyright": "Copyright © 2020",
+    "buildVersion": "1.0.0",
+    "compression": "maximum",
+    "directories": {
+      "output": "../../../bin/Desktop"
+    },
+    "win": {
+      "icon": "../../../wwwroot/icon.png"
+    },
+    "extraResources": [
+      {
+        "from": "./bin",
+        "to": "bin",
+        "filter": [ "**/*" ]
+      }
+    ],
+    "files": [
+      {
+        "from": "./ElectronHostHook/node_modules",
+        "to": "ElectronHostHook/node_modules",
+        "filter": [ "**/*" ]
+      },
+      "**/*"
+    ]
+  }
+}

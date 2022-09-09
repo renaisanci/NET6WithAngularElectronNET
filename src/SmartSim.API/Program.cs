@@ -1,24 +1,15 @@
+using ElectronNET.API;
+using SmartSim.API;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.WebHost.UseElectron(args);
 
-builder.Services.AddControllersWithViews();
+var startup = new Startup(builder.Configuration);
+startup.ConfigurationService(builder.Services);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-}
 
-app.UseStaticFiles();
-app.UseRouting();
-
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller}/{action=Index}/{id?}");
-
-app.MapFallbackToFile("index.html"); ;
-
+startup.Configure(app, app.Environment);
 app.Run();
