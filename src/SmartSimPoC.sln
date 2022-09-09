@@ -3,11 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartSimAPI.UI", "SmartSimAPI.UI", "{7CD96690-6C00-47C5-B86C-0298B0C4C266}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartSimAPI.API", "SmartSimAPI.API", "{7CD96690-6C00-47C5-B86C-0298B0C4C266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSim.API", "SmartSim.API\SmartSim.API.csproj", "{DCA4DE09-0D5C-42B6-A6EC-764B28211F0B}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA4DE09-0D5C-42B6-A6EC-764B28211F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA4DE09-0D5C-42B6-A6EC-764B28211F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA4DE09-0D5C-42B6-A6EC-764B28211F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA4DE09-0D5C-42B6-A6EC-764B28211F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCA4DE09-0D5C-42B6-A6EC-764B28211F0B} = {7CD96690-6C00-47C5-B86C-0298B0C4C266}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E126A67D-8393-4F95-A8DB-47B1C3AB0914}
