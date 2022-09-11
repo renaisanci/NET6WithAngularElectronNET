@@ -1,8 +1,8 @@
 {
   "executable": "SmartSim.API",
   "splashscreen": {
-    "imageFile": "/wwwroot/favicon.jpg"
-   
+    "imageFile": "/wwwroot/loading.gif"
+
   },
   "name": "SmartSim.API",
   "author": "",
