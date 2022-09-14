@@ -34,6 +34,9 @@ Here you need the Electron.NET CLI as well. Type the following command in your A
 ```
 electronize build /target win
 ```
+As result
+![image](https://user-images.githubusercontent.com/14084041/190147704-4a41cae7-c807-4161-9903-96ab862833da.png)
+
 
 There are additional platforms available:
 
