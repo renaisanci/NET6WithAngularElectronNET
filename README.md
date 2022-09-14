@@ -23,8 +23,8 @@ electronize init
 ```
 electronize start
 ```
-OR Usinf F5 by VS
-![image](https://user-images.githubusercontent.com/14084041/190146812-3617deff-c1b3-4ce1-a003-6e5340c34ab4.png)
+OR Using F5 by VS
+![image](https://user-images.githubusercontent.com/14084041/190146983-c10a5908-a3ba-4aaa-a748-7832643e155e.png)
 
 
 ## ⛏ Build
