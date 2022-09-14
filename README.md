@@ -10,6 +10,7 @@ The is separate from the webAPI core project however the configuration to runnin
 
 
 ⛏ Build
+<hr>
 Here you need the Electron.NET CLI as well. Type the following command in your ASP.NET Core folder:
 
 electronize build /target win
