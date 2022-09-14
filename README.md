@@ -11,3 +11,14 @@ The is separate from the webAPI core project however the configuration to runnin
 
 ⛏ Build
 Here you need the Electron.NET CLI as well. Type the following command in your ASP.NET Core folder:
+
+electronize build /target win
+There are additional platforms available:
+
+electronize build /target win
+electronize build /target osx
+electronize build /target osx-arm64
+electronize build /target linux
+
+
+
