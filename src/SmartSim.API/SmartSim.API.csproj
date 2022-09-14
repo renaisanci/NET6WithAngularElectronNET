@@ -3,7 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
-    <SpaRoot>SmartSim.UI\</SpaRoot>
+    <SpaRoot>../SmartSim.UI\</SpaRoot>
     <SpaProxyServerUrl>http://localhost:44430</SpaProxyServerUrl>
     <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
     <ImplicitUsings>enable</ImplicitUsings>
