@@ -7,3 +7,7 @@ The is separate from the webAPI core project however the configuration to runnin
 
 
 ![image](https://user-images.githubusercontent.com/14084041/189996722-40af7b33-ecca-406b-b418-d28dab7f199c.png)
+
+
+⛏ Build
+Here you need the Electron.NET CLI as well. Type the following command in your ASP.NET Core folder:
