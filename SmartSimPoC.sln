@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartSim.API", "SmartSim.API\SmartSim.API.csproj", "{7CA4C529-D78D-4819-8774-ABEA54FD5092}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartSim.API", "src\SmartSim.API\SmartSim.API.csproj", "{7CA4C529-D78D-4819-8774-ABEA54FD5092}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
